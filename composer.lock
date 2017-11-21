@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bd1eccf596c81bd6d5a5a08cb55f1557",
+    "content-hash": "960e0ed79090dfe65504e1287c56c7c7",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -219,16 +219,16 @@
         },
         {
             "name": "elasticsearch/elasticsearch",
-            "version": "v5.3.0",
+            "version": "v5.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elastic/elasticsearch-php.git",
-                "reference": "50e5b1c63db68839b8acc1f4766769570a27a448"
+                "reference": "4b29a4121e790bbfe690d5ee77da348b62d48eb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elastic/elasticsearch-php/zipball/50e5b1c63db68839b8acc1f4766769570a27a448",
-                "reference": "50e5b1c63db68839b8acc1f4766769570a27a448",
+                "url": "https://api.github.com/repos/elastic/elasticsearch-php/zipball/4b29a4121e790bbfe690d5ee77da348b62d48eb8",
+                "reference": "4b29a4121e790bbfe690d5ee77da348b62d48eb8",
                 "shasum": ""
             },
             "require": {
@@ -270,7 +270,7 @@
                 "elasticsearch",
                 "search"
             ],
-            "time": "2017-07-19T18:44:30+00:00"
+            "time": "2017-11-08T17:04:47+00:00"
         },
         {
             "name": "erusev/parsedown",
@@ -697,16 +697,16 @@
         },
         {
             "name": "laravel/scout",
-            "version": "v3.0.10",
+            "version": "v3.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/scout.git",
-                "reference": "681c15a26bbc973528af2e77e0bb61981dc07206"
+                "reference": "8f228a073ef844c5981febe4d185d6ee7b4e5bd2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/scout/zipball/681c15a26bbc973528af2e77e0bb61981dc07206",
-                "reference": "681c15a26bbc973528af2e77e0bb61981dc07206",
+                "url": "https://api.github.com/repos/laravel/scout/zipball/8f228a073ef844c5981febe4d185d6ee7b4e5bd2",
+                "reference": "8f228a073ef844c5981febe4d185d6ee7b4e5bd2",
                 "shasum": ""
             },
             "require": {
@@ -758,7 +758,7 @@
                 "laravel",
                 "search"
             ],
-            "time": "2017-09-14T12:32:30+00:00"
+            "time": "2017-11-21T13:48:26+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -2478,32 +2478,32 @@
     "packages-dev": [
         {
             "name": "doctrine/instantiator",
-            "version": "1.0.5",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/instantiator.git",
-                "reference": "8e884e78f9f0eb1329e445619e04456e64d8051d"
+                "reference": "185b8868aa9bf7159f5f953ed5afb2d7fcdc3bda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/8e884e78f9f0eb1329e445619e04456e64d8051d",
-                "reference": "8e884e78f9f0eb1329e445619e04456e64d8051d",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/185b8868aa9bf7159f5f953ed5afb2d7fcdc3bda",
+                "reference": "185b8868aa9bf7159f5f953ed5afb2d7fcdc3bda",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3,<8.0-DEV"
+                "php": "^7.1"
             },
             "require-dev": {
                 "athletic/athletic": "~0.1.8",
                 "ext-pdo": "*",
                 "ext-phar": "*",
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "~2.0"
+                "phpunit/phpunit": "^6.2.3",
+                "squizlabs/php_codesniffer": "^3.0.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.2.x-dev"
                 }
             },
             "autoload": {
@@ -2528,7 +2528,7 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2015-06-14T21:17:01+00:00"
+            "time": "2017-07-22T11:58:36+00:00"
         },
         {
             "name": "filp/whoops",
