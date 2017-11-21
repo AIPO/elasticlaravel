@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class AccountTableSeeder extends Seeder
+class UserTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,7 +11,6 @@ class AccountTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(App\Account::class, 200)->create();
-
+        DB::table('accounts')->truncate();
     }
 }
