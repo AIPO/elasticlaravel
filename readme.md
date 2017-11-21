@@ -1,4 +1,4 @@
-##Install ElasticSearch to Ubuntu 160.4 LTS
+##Install ElasticSearch to Ubuntu 16.04 LTS
 https://www.elastic.co/guide/en/elasticsearch/reference/current/deb.html
 
 Or use Terminal:
