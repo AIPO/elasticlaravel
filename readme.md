@@ -23,11 +23,15 @@ ELASTICSEARCH_INDEX=scout
 ELASTICSEARCH_HOST=http://localhost:9200
 
 to .env and set up MySQL connection in youe .env file.
+
 ###Install composer dependencies
 `composer install`
+
 ###Run Account model migration with only 'name'.
 `php artisan migrate`
+
 ###Fill Database with fake data
 `php artisan db:seed`
+
 ###Run server
 `php artisan serve`
