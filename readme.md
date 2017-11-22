@@ -22,6 +22,7 @@ Test your ElasticSearch at http://localhost:9200
 
 ### For using this example add:
 ELASTICSEARCH_INDEX=scout
+
 ELASTICSEARCH_HOST=http://localhost:9200
 
 to .env and set up MySQL connection in youe .env file.
